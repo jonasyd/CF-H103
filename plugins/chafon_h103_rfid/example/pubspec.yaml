@@ -1,0 +1,24 @@
+name: chafon_h103_rfid_example
+description: Demonstrates how to use the chafon_h103_rfid plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chafon_h103_rfid:
+    path: ../
+  cupertino_icons: ^1.0.8
+  permission_handler: ^11.0.0
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
